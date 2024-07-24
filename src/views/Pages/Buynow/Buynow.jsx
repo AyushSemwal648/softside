@@ -6,10 +6,10 @@ import cart from "../../../assets/homepage/Cart.png";
 function Buynow() {
   return (
     <>
-      <section className="w-full mx-auto overflow-hidden ">
+      <section className="w-full  overflow-hidden mx-auto 2xl:container">
         <div
           className="mx-7 md:mx-14 lg:mx-20  xl:mx-24  my-10 md:my-24 gap-4
-         grid grid-cols-1 md:grid-cols-3"
+         grid grid-cols-1 md:grid-cols-3 "
         >
           <div className="bg-[#FAFAFA] w-full  col-span-2  rounded-[20px]">
             <div className="flex items-end   border-b border-opacity-30 px-8 py-6 justify-between">

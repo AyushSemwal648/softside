@@ -44,7 +44,7 @@ function Contact() {
         backgroundRepeat: "no-repeat",
       }}
     >
-      <div className="px-14 md:px-12 lg:px-20 xl:px-24 py-24 ">
+      <div className="px-14 md:px-12 lg:px-20 xl:px-24 py-24 mx-auto 2xl:container">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="col-span-2 flex flex-col gap-16 my-auto ">
             <h1

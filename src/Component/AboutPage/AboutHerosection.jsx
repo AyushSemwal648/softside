@@ -4,7 +4,7 @@ import bg from "../../assets/homepage/image 1.png";
 function AboutHerosection() {
   return (
     <section
-      className="h-[300px]  md:h-[500px] mx-auto w-full "
+      className="h-[300px]  md:h-[500px] w-full "
       style={{
         backgroundImage: `url(${bg})`,
         backgroundSize: "cover",
@@ -12,7 +12,7 @@ function AboutHerosection() {
         backgroundRepeat: "no-repeat",
       }}
     >
-      <div className="px-8 md:px-24 flex justify-center items-center ">
+      <div className="px-8 md:px-24 flex justify-center  mx-auto 2xl:container">
         <div className="flex flex-col mt-20 md:mt-40">
           <div className="flex gap-3 items-center justify-center" >
             <h5

@@ -33,8 +33,8 @@ function Product() {
   ];
 
   return (
-    <section className="mx-auto bg-[rgb(232,249,248)] overflow-hidden ">
-      <div className="flex flex-col px-7 md:px-14 lg:px-20 xl:px-24 py-28">
+    <section className="mx-auto bg-[rgb(232,249,248)] overflow-hidden  ">
+      <div className="flex flex-col px-7 md:px-14 lg:px-20 xl:px-24 py-28 mx-auto 2xl:container" >
         <div className="title flex justify-center flex-col items-center ">
           <h2
             className=" text-[#313131] font-body text-4xl md:text-5xl lg:text-6xl font-semibold mb-6"

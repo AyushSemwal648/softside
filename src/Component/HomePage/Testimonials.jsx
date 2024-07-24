@@ -6,7 +6,7 @@ import Atropos from "atropos/react";
 
 function Testimonials() {
   return (
-    <section className="mx-auto w-full ">
+    <section className="mx-auto w-full 2xl:container">
       <div className="flex flex-col px-14 md:px-12 lg:px-20 xl:px-24 py-24">
         <div className="flex justify-center">
           <h1

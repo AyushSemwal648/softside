@@ -2,7 +2,29 @@ import React from "react";
 import banner from "../../assets/homepage/Rectangle 35.png";
 import { useState } from "react";
 
+// import React, { useRef } from "react";
+// import emailjs from "@emailjs/browser";
+
 function Connected() {
+  // const form = useRef();
+
+  // const sendEmail = (e) => {
+  //   e.preventDefault();
+
+  //   emailjs
+  //     .sendForm("service_53tlvzq", "template_g795was", form.current, {
+  //       publicKey: "eszDS9SdVLWf5Zeos",
+  //     })
+  //     .then(
+  //       () => {
+  //         console.log("SUCCESS!");
+  //       },
+  //       (error) => {
+  //         console.log("FAILED...", error.text);
+  //       }
+  //     );
+  // };
+
   const [inputs, setInputs] = useState({
     name: "",
     email: "",
@@ -31,8 +53,8 @@ function Connected() {
 
   return (
     <>
-      <section className="mx-auto bg-[#92C6C2] overflow-hidden ">
-        <div className="px-14 md:px-12 lg:px-20 xl:px-24 py-24">
+      <section className=" bg-[#92C6C2] overflow-hidden ">
+        <div className="px-14 md:px-12 lg:px-20 xl:px-24 py-24 2xl:container mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2">
             <div className="justify-start hidden md:flex ">
               <img
@@ -51,7 +73,13 @@ function Connected() {
               >
                 Get in touch
               </h1>
-
+              {/* <form ref={form} onSubmit={sendEmail} className="flex flex-col">
+                <label>Name</label>
+                <input type="text" name="user_name" />
+                <label>Email</label> <input type="email" name="user_email" />
+                <label>Message</label> <textarea name="message" />
+                <input type="submit" value="Send" className="py-1 px-4 bg-white rounded-lg  mt-3" />
+              </form> */}
               <div className="flex items-center justify-center">
                 <div className="relative w-full">
                   <input

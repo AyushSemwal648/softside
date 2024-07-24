@@ -53,7 +53,7 @@ function Sellingpoint() {
   ];
   return (
     <section className="mx-auto w-full overflow-hidden">
-      <div className="py-14   px-7 md:px-14 lg:px-20 xl:px-24">
+      <div className="py-14   px-7 md:px-14 lg:px-20 xl:px-24 mx-auto 2xl:container">
         <div className="flex justify-center">
           <h1
             className="title font-body text-3xl  md:text-[40px] lg:text-5xl xl:text-6xl lg:leading-[80px] font-semibold text-center"

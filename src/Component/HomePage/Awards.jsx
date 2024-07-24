@@ -26,8 +26,8 @@ const Awardsdata = [
 
 function Awards() {
   return (
-    <section className="mx-auto w-full bg-[#92C6C2]">
-      <div className="flex flex-col px-14 md:px-12 lg:px-20 xl:px-24 py-24">
+    <section className=" w-full bg-[#92C6C2]">
+      <div className="flex flex-col px-14 md:px-12 lg:px-20 xl:px-24 py-24 mx-auto 2xl:container">
         <div className="flex justify-center">
           <h1
             className="text-[#313131] text-center font-body text-4xl md:text-5xl lg:text-6xl lg:leading-[80px] font-semibold"

@@ -4,7 +4,7 @@ import poster from "../../assets/homepage/Group 6.png";
 function DerwinHunt() {
   return (
     <section className="mx-auto w-full bg-[#E8F9F8] overflow-hidden">
-      <div className="py-28 grid grid-cols-1 sm:grid-cols-2 px-7 md:px-14 lg:px-20 xl:px-24">
+      <div className="py-28 grid grid-cols-1 sm:grid-cols-2 px-7 md:px-14 lg:px-20 xl:px-24 mx-auto 2xl:container">
         <div className="flex  items-center  sm:pr-8 mb-8 sm:mb-0">
           <img
             src={poster}

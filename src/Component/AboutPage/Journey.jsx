@@ -4,7 +4,7 @@ import poster from "../../assets/homepage/journey.png";
 function Journey() {
   return (
     <section className="mx-auto w-full overflow-hidden">
-      <div className="py-28 grid grid-cols-1 sm:grid-cols-2 px-7 md:px-14 lg:px-20 xl:px-24">
+      <div className="py-28 grid grid-cols-1 sm:grid-cols-2 px-7 md:px-14 lg:px-20 xl:px-24  mx-auto 2xl:container">
         <div className="flex flex-col items-start pr-4">
           <p className="text-[#313131]  text-3xl  md:text-[40px] lg:text-5xl xl:text-6xl  font-bold font-body xl:leading-[80px] mb-6 md:text-left text-center "    data-aos="fade-down"
             data-aos-duration="2000">

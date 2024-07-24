@@ -9,7 +9,7 @@ function Quotes() {
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
         }}>
-            <div className="px-10 md:px-24 pt-[100px] md:pt-[200px] " data-aos="flip-right" data-aos-duration= "2000">
+            <div className="px-8 md:px-24 pt-[100px] md:pt-[200px]  2xl:container mx-auto" data-aos="flip-right" data-aos-duration= "2000">
                 <h1 className='font-body text-4xl md:text-5xl lg:text-6xl font-semibold text-white lg:leading-[80px] mb-2'>
                     The Soft Side Cushion
                 </h1>

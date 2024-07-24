@@ -9,6 +9,7 @@ import Quote from '../../../Component/HomePage/Quote'
 import Quotes from '../../../Component/HomePage/Quotes'
 import Testimonials from '../../../Component/HomePage/Testimonials'
 import Miscelleanous from '../../../Component/HomePage/Miscelleanous'
+import Youtube from '../../../Component/HomePage/Youtube'
 
 function Home() {
     return (
@@ -16,6 +17,7 @@ function Home() {
             <Herosection />
             <Miscelleanous/>
             <Product />
+            <Youtube/>
             {/* <Quote /> */}
             <Quotes />
             <Testimonials />

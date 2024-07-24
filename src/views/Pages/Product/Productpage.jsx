@@ -25,8 +25,8 @@ function Productpage() {
 
   return (
     <>
-      <section className="w-full mx-auto overflow-hidden  ">
-        <div className="mx-7 md:mx-14 lg:mx-20  xl:mx-24 grid grid-cols-1 md:grid-cols-2 my-10 md:my-24">
+      <section className="w-full mx-auto overflow-hidden mx-auto 2xl:container ">
+        <div className="mx-7 md:mx-14 lg:mx-20  xl:mx-24 grid grid-cols-1 md:grid-cols-2 my-10 md:my-24 ">
           <div className="flex flex-col h-full items-center">
             <img
               src={Product1}

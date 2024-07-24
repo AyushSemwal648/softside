@@ -5,8 +5,8 @@ import logo from "../../../assets/homepage/Logo.png";
 function Footer() {
   return (
     <>
-      <footer className="">
-        <div className="bg-[#2C2C2C] text-white px-5 md:px-12 lg:px-16 xl:px-24  py-8 md:py-14 overflow-x-hidden">
+      <footer className="bg-[#2C2C2C]">
+        <div className=" text-white px-5 md:px-12 lg:px-16 xl:px-24  py-8 md:py-14 overflow-x-hidden  2xl:container mx-auto">
           <div className="flex flex-col gap-5  md:flex-row md:justify-between lg:flex-row lg:justify-between ">
             <div className=" flex  flex-col   justify-between md:justify-start md:items-start  gap-2 ">
               <img
@@ -252,7 +252,7 @@ function Footer() {
                 </div>
               </div>
         </div>
-        <div className="bg-[#2C2C2C]  px-5 md:px-12 lg:px-16 xl:px-24   ">
+        <div className="bg-[#2C2C2C]  px-5 md:px-12 lg:px-16 xl:px-24   2xl:container mx-auto">
           <div className="flex flex-col md:flex-row justify-between font-poppins text-xs md:text-base md:leading-[24px]  opacity-50 border-t border-[#ffffff] py-4 gap-2">
             <p className="opacity-50 text-white flex justify-center">
               2024 All rights reserved ,{" "}

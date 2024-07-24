@@ -6,7 +6,7 @@ import icon3 from "../../assets/homepage/icon3.png";
 function Trusted() {
   return (
     <section className="mx-auto w-full overflow-hidden">
-      <div className="pt-28 pb-20  px-7 md:px-14 lg:px-20 xl:px-24">
+      <div className="pt-28 pb-20  px-7 md:px-14 lg:px-20 xl:px-24 mx-auto 2xl:container">
         <div className="flex flex-col items-center justify-center gap-16">
           <p className="text-base  md:text-lg  font-normal font-poppins   text-center text-[#3E3E3E]">
             <span className="font-bold text-[#013A71]">

@@ -2,8 +2,8 @@ import React from 'react'
 import poster from "../../assets/homepage/Group 12.png"
 function Quote() {
     return (
-        <section className="mx-auto w-full">
-            <div className="my-28 grid grid-cols-1 sm:grid-cols-2 mx-7 md:mx-14 lg:mx-20 xl:mx-24">
+        <section className="mx-auto w-full 2xl:container">
+            <div className="my-28 grid grid-cols-1 sm:grid-cols-2 mx-7 md:mx-14 lg:mx-20 xl:mx-24 ">
                 <div className='flex  items-center justify-center sm:pr-8 mb-8 sm:mb-0'>
                     <img src={poster} alt="" className='h-[350px] sm:h-full' />
                 </div>

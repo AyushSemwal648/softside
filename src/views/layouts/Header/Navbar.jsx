@@ -53,9 +53,9 @@ function Navbar() {
 
   return (
     <>
-      <section>
+      <section >
         <nav
-          className={`bg-[#2C2C2C] navbar-transition p-2 flex justify-between items-center px-5 md:px-12 lg:px-20 xl:px-24 transition-all duration-500 ease-in-out  ${
+          className={`bg-[#2C2C2C] navbar-transition p-2 flex justify-between items-center px-5 md:px-12 lg:px-20 xl:px-24 transition-all duration-500 ease-in-out ${
             isSticky
               ? "fixed top-0 left-0 w-full h-[60px] md:h-[80px] z-30"
               : "relative h-auto"

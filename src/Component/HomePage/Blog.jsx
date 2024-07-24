@@ -29,8 +29,8 @@ const Blogdata = [
 ];
 function Blog() {
   return (
-    <section className="mx-auto w-full overflow-hidden">
-      <div className="flex flex-col px-14 md:px-12 lg:px-20 xl:px-24 py-24">
+    <section className=" w-full overflow-hidden">
+      <div className="flex flex-col px-14 md:px-12 lg:px-20 xl:px-24 py-24 2xl:container mx-auto">
         <div className="flex  justify-center text-[#313131]">
           <h1
             data-aos="fade-down"
@@ -49,8 +49,8 @@ function Blog() {
                 data-aos-duration="2000"
                 data-aos-delay={`${300 * (index + 1)}`}
               >
-                <Atropos shadow={false}>
-                  <div className="mx-auto card flex flex-col justify-between border border-opacity-50 rounded-[20px] md:h-[520px] lg:h-[560px] 2xl:h-[650px]">
+                {/* <Atropos shadow={false}> */}
+                  <div className="mx-auto card flex flex-col justify-between border border-opacity-50 rounded-[20px] md:h-[520px] lg:h-[560px] 2xl:h-[650px] hover:shadow-2xl transition-shadow duration-300 ">
                     <div className="flex  mb-4">
                       <img
                         src={blog.img}
@@ -84,7 +84,7 @@ function Blog() {
                                     </button> */}
                     </div>
                   </div>
-                </Atropos>
+                {/* </Atropos> */}
               </div>
             );
           })}
