@@ -6,6 +6,9 @@ import About from "../views/Pages/About/About.jsx";
 import Productpage from "../views/Pages/Product/Productpage.jsx";
 import Buynow from "../views/Pages/Buynow/Buynow.jsx";
 import Contact from "../views/Pages/Contactus/Contact.jsx";
+import Blog from "../views/Pages/Blog/Blog.jsx";
+import Blogpost from "../Component/BlogPage/Blogpost.jsx";
+
 
 function Router() {
   const router = createBrowserRouter([
@@ -33,6 +36,14 @@ function Router() {
           path: "Contact",
           element: <Contact/>,
         },
+        {
+          path: "Blog",
+          element: <Blog/>
+        },
+        {
+          path: "blogpost/:id",
+          element: <Blogpost/>
+        }
       ],
     },
   ]);
