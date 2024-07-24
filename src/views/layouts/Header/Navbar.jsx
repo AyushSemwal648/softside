@@ -24,7 +24,7 @@ function Navbar() {
 
   const linkPaths = {
     Home: "/",
-    "About us": "/About",
+    "About us": "/About#section1",
     Product: "/Product",
     "Contact us": "/contact",
   };
