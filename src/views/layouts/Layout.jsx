@@ -6,12 +6,14 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import ScrollToTop from "react-scroll-to-top";
 import Logo from "./logo";
+import Scroll from "../../Component/Scroll/Scroll";
 
 const Layout = () => {
   AOS.init();
   return (
     <>
       <Navbar />
+      <Scroll/>
       <ScrollToTop smooth component={<Logo />} className=" !bg-transparent" />
       <Outlet />
       <Footer />
