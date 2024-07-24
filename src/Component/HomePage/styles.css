@@ -1,0 +1,13 @@
+.swiper-pagination-bullet-active {
+   
+ 
+}
+
+.swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet{
+    background-color: white !important;
+    /* border: 1px solid black !important; */
+    height: 18px;
+    width: 18px;
+   
+}
