@@ -3,7 +3,12 @@ import Connected from "../../../Component/HomePage/Connected";
 import QuantityDropdown from "./Dropdown";
 import cart from "../../../assets/homepage/Cart.png";
 
+
 function Buynow() {
+
+  
+  
+
   return (
     <>
       <section className="w-full  overflow-hidden mx-auto 2xl:container">
@@ -17,14 +22,20 @@ function Buynow() {
                 <h1 className=" text-2xl lg:text-3xl font-body font-semibold">
                   Shopping Cart
                 </h1>
-                <h5 className="font-poppins text-base lg:text-lg opacity-50">(1 item) </h5>
+                <h5 className="font-poppins text-base lg:text-lg opacity-50">
+                  (1 item){" "}
+                </h5>
               </div>
 
               <h1 className="font-poppins text-base lg:text-lg">Price</h1>
             </div>
             <div className="flex px-8 py-6">
               <div className=" flex w-[25%] h-[150px] md:h-[200px] lg:h-[230px]">
-                <img src={cart} alt="" className="h-full object-cover object-right-bottom" />
+                <img
+                  src={cart}
+                  alt=""
+                  className="h-full object-cover object-right-bottom"
+                />
               </div>
               <div className="flex flex-col gap-3 w-[75%] pl-5">
                 <div className="flex justify-between">
@@ -95,7 +106,9 @@ function Buynow() {
                 <h1 className="text-lg lg:text-xl font-poppins font-semibold">
                   Subtotal (1 item) :
                 </h1>
-                <h1 className="text-lg lg:text-xl font-poppins font-semibold">$149.99</h1>
+                <h1 className="text-lg lg:text-xl font-poppins font-semibold">
+                  $149.99
+                </h1>
               </div>
             </div>
           </div>

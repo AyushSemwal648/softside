@@ -1,15 +1,16 @@
 import React, { useState } from "react";
 import Product1 from "../../../assets/homepage/Product.png";
-import Prop1 from "../../../assets/homepage/prop1.png";
-import Prop2 from "../../../assets/homepage/prop2.png";
-import Prop3 from "../../../assets/homepage/prop3.png";
-import Prop4 from "../../../assets/homepage/prop4.png";
-import Prop5 from "../../../assets/homepage/prop5.png";
-import Prop6 from "../../../assets/homepage/prop6.png";
+import Prop1 from "../../../assets/homepage/Rectangle 46.png";
+import Prop2 from "../../../assets/homepage/Rectangle 47.png";
+import Prop3 from "../../../assets/homepage/Rectangle 48.png";
+import Prop4 from "../../../assets/homepage/Rectangle 49.png";
+import Prop5 from "../../../assets/homepage/Rectangle 50.png";
+import Prop6 from "../../../assets/homepage/Rectangle 51.png";
 import Connected from "../../../Component/HomePage/Connected";
 
 function Productpage() {
   const [count, setCount] = useState(0);
+  const [selectedImage, setSelectedImage] = useState(Product1);
 
   const increment = () => {
     setCount(count + 1);
@@ -25,26 +26,64 @@ function Productpage() {
 
   return (
     <>
-      <section className="w-full mx-auto overflow-hidden mx-auto 2xl:container ">
-        <div className="mx-7 md:mx-14 lg:mx-20  xl:mx-24 grid grid-cols-1 md:grid-cols-2 my-10 md:my-24 ">
+      <section className="w-full mx-auto overflow-hidden  2xl:container ">
+      <div className="flex gap-3 mt-6 md:mt-36 items-center justify-center" >
+            <h5
+              className="font-poppins text-lg font-medium text-black"
+              data-aos="fade-right"
+              data-aos-duration="2000"
+              data-aos-delay="200"
+            >
+              Home
+            </h5>
+            <svg
+              width="27"
+              height="16"
+              viewBox="0 0 27 16"
+              
+              fill="black"
+              fillOpacity="1"
+              xmlns="http://www.w3.org/2000/svg"
+              data-aos="fade-right"
+              data-aos-duration="2000"
+              data-aos-delay="400"
+            >
+              <path
+                d="M26.7071 8.70711C27.0976 8.31658 27.0976 7.68342 26.7071 7.29289L20.3431 0.928932C19.9526 0.538408 19.3195 0.538408 18.9289 0.928932C18.5384 1.31946 18.5384 1.95262 18.9289 2.34315L24.5858 8L18.9289 13.6569C18.5384 14.0474 18.5384 14.6805 18.9289 15.0711C19.3195 15.4616 19.9526 15.4616 20.3431 15.0711L26.7071 8.70711ZM0 9H26V7H0V9Z"
+                fill="black"
+              />
+            </svg>
+
+            <h5
+              className="font-poppins text-lg font-medium text-black"
+              data-aos="fade-right"
+              data-aos-duration="2000"
+              data-aos-delay="600"
+            >
+              About us
+            </h5>
+          </div>
+        <div className="mx-6 md:mx-14 lg:mx-20  xl:mx-24 grid grid-cols-1 md:grid-cols-2 my-6 md:my-24 ">
+
           <div className="flex flex-col h-full items-center">
             <img
-              src={Product1}
+              src={selectedImage}
               alt=""
-              className="w-[90%] md:w-full h-[400px] sm:h-[500px]  lg:h-[600px] object-cover object-right-bottom"
+              className="w-full h-[350px] sm:h-[500px]  lg:h-[600px] object-fill md:object-cover object-right-bottom"
             />
-            <div className="flex justify-between mt-5 w-[90%] md:w-full ">
+            <div className="flex justify-between mt-5 w-[100%] md:w-full overflow-x-auto no-scrollbar">
               {images.map((imageUrl, index) => (
                 <img
                   key={index} // Use index as the key (not recommended for production)
                   src={imageUrl}
                   alt={`Image ${index}`}
-                  className="h-14 sm:h-16 md:h-14 lg:h-20  object-cover"
+                  className="h-12 sm:h-14 md:h-14 lg:h-20  object-contain"
+                  onClick={() => setSelectedImage(imageUrl)} 
                 />
               ))}
             </div>
           </div>
-          <div className=" m-8 md:m-0 flex flex-col ">
+          <div className=" my-8 md:my-0 flex flex-col ">
             <div className="card  md:ml-10   ">
               <p className="text-[#313131] font-body text-3xl  md:text-5xl xl:text-6xl font-semibold  xl:leading-[80px] mb-5 md:mb-5 ">
                 Softside Bathtub
@@ -59,8 +98,8 @@ function Productpage() {
                   Colour- Off White
                 </p>
               </div>
-              <div className="flex items-center mb-10">
-                <div className="flex items-center justify-center  rounded-full border border-black p-3">
+              <div className="flex  items-center mb-10">
+                <div className="flex items-center justify-center  rounded-full border border-black p-1 sm:p-3">
                   <button
                     className=" font-bold py-2 px-4 flex items-center justify-center"
                     onClick={decrement}
@@ -154,7 +193,7 @@ function Productpage() {
         <div className="mx-12 md:mx-24 mb-20 flex flex-col ">
           <div className="flex flex-col">
             <div className="flex justify-between border-b border-[black] pb-2 mb-8">
-              <h1 className="font-body text-2xl font-semibold text-[#313131]">Description</h1>
+              <h1 className="font-body text-2xl font-semibold text-[#313131]"> Product Description</h1>
             </div>
             <p className="font-poppins text-base md:text-lg text-[#535353] mb-6 ">
               Hunt Innovations LLC wants bathing to become the most carefree
